@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test: 1 line ",
+      "setup": "",
+      "run": "timeout 1 ./pascal 1 out.txt && cmp out.txt tests/pascal1.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: 3 lines",
+      "setup": "",
+      "run": "timeout 1 ./pascal 3 out.txt && cmp out.txt tests/pascal3.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: 7 lines",
+      "setup": "",
+      "run": "timeout 1 ./pascal 7 out.txt && cmp out.txt tests/pascal7.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: 11 lines",
+      "setup": "",
+      "run": "timeout 1 ./pascal 11 out.txt && cmp out.txt tests/pascal11.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: 50 lines",
+      "setup": "",
+      "run": "timeout 1 ./pascal 50 out.txt && cmp out.txt tests/pascal50.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
